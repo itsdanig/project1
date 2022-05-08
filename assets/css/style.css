@@ -31,6 +31,7 @@ h1, h2 {
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
+    
 }
 
 #navbar li {
@@ -54,10 +55,25 @@ h1, h2 {
 
 /* background image */
 
+
+#wrap-img {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #background-img {
     height: 600px;
     width: 100%;
     background: url(../images/yoga-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+#cover-text, #cover-text h2 {
+    color: rgb(38, 25, 17)
 }
 
 #cover-text {
@@ -69,6 +85,10 @@ h1, h2 {
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgb(38, 25, 17);
-    line-height: 5px;
+    background-color: rgb(191, 175, 160);
+    bottom: 30px;
+    right: 150px;
+    position: relative;
 }
+
+
