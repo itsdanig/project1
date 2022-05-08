@@ -85,10 +85,56 @@ h1, h2 {
     height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-    background-color: rgb(191, 175, 160);
+    background-color: rgb(249, 246, 239);
     bottom: 30px;
     right: 150px;
     position: relative;
 }
 
 
+#abt-left {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: rgb(249, 246, 239);
+}
+
+#abt-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: rgb(249, 246, 239);
+
+}
+
+
+
+#abt-middle {
+    width: 33%;
+    margin: 0 auto;
+    background-color: rgb(249, 246, 239);
+}
+
+.abt-left-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.abt-right-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.abt-right-heading h2 {
+    text-align: right;
+}
+
+.abt-right-heading p {
+    text-align: right;
+}
