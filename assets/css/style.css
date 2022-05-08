@@ -48,3 +48,27 @@ h1, h2 {
     border-bottom: 1px solid rgb(191, 175, 160);
 }
 
+.active {
+    border-bottom: 1px solid rgb(191, 175, 160);
+}
+
+/* background image */
+
+#background-img {
+    height: 600px;
+    width: 100%;
+    background: url(../images/yoga-background.jpg);
+}
+
+#cover-text {
+    font-size: 135%;
+    font-family: fjalla one, source sans pro;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgb(38, 25, 17);
+    line-height: 5px;
+}
